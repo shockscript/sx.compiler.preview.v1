@@ -14,7 +14,6 @@ Use this document to track what nodes your program fully analyses.
   - [ ] Nothing literal (`NothingLtr`)
   - [ ] Null literal (`NullLtr`)
   - [ ] Empty literal (`EmptyLtr`)
-  - [ ] Me literal (`MeLtr`)
   - [ ] Global literal (`GlobalLtr`)
   - [ ] Parentheses expression (`ParensExp`)
   - [ ] Dot operator: member or call operator (`MemberOrCallOp`)
