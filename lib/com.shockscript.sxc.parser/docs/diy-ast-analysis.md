@@ -4,6 +4,25 @@ Use this document to track what nodes your program fully analyses.
 
 ## What is complete
 
+- [ ] Constant Expressions
+  - [ ] Identifier (`Ident`)
+  - [ ] Identifier or call (`IdentOrCall`)
+  - [ ] String literal  (`StrLtr`)
+  - [ ] Boolean literal (`BoolLtr`)
+  - [ ] Decimal literal (`DecLtr`)
+  - [ ] Long literal (`LongLtr`)
+  - [ ] Nothing literal (`NothingLtr`)
+  - [ ] Null literal (`NullLtr`)
+  - [ ] Empty literal (`EmptyLtr`)
+  - [ ] Me literal (`MeLtr`)
+  - [ ] Global literal (`GlobalLtr`)
+  - [ ] Parentheses expression (`ParensExp`)
+  - [ ] Dot operator: member or call operator (`MemberOrCallOp`)
+  - [ ] Dot operator: member-only (`MemberOp`)
+  - [ ] Group operator (`GroupOp`)
+  - [ ] Conditional expression (`CondExp`)
+  - [ ] Unary operator (`UnaryOp`)
+  - [ ] Binary operator (`BinOp`)
 - [ ] Expressions
   - [ ] Identifier (`Ident`)
   - [ ] Identifier or call (`IdentOrCall`)
@@ -22,7 +41,7 @@ Use this document to track what nodes your program fully analyses.
   - [ ] Function expression (`FnExp`)
   - [ ] Tuple initializer (`TupleLtr`)
   - [ ] Collection initializer (`CollectionLtr`)
-  - [ ] Structure or flags initializer (`StructOrFlagsLtr`)
+  - [ ] Dictionary initializer (`DictLtr`)
   - [ ] Dot operator: member or call operator (`MemberOrCallOp`)
   - [ ] Dot operator: member-only (`MemberOp`)
   - [ ] Group operator (`GroupOp`)

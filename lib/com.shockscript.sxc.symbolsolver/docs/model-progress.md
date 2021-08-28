@@ -30,8 +30,10 @@
     - [x] `createSingleConstant`
     - [x] `createDoubleConstant`
     - [x] `createByteConstant`
+    - [x] `createShortConstant`
     - [x] `createIntegerConstant`
     - [x] `createLongConstant`
+    - [x] `createBigIntegerConstant`
     - [x] `createDecimalConstant`
     - [x] `createCharConstant`
     - [x] `createEnumConstant`
@@ -93,8 +95,10 @@
     - [x] `isSingleConstant`
     - [x] `isDoubleConstant`
     - [x] `isByteConstant`
+    - [x] `isShortConstant`
     - [x] `isIntegerConstant`
     - [x] `isLongConstant`
+    - [x] `isBigIntegerConstant`
     - [x] `isDecimalConstant`
     - [x] `isCharConstant`
     - [x] `isEnumConstant`
@@ -155,8 +159,10 @@
     - [x] Single constant
     - [x] Double constant
     - [x] Byte constant
+    - [x] Short constant
     - [x] Integer constant
     - [x] Long constant
+    - [x] BigInteger constant
     - [x] Decimal constant
     - [x] Char constant
     - [x] Enum constant
