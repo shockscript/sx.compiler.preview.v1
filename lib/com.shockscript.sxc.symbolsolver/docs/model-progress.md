@@ -198,4 +198,4 @@
 
 ## Method Overriding
 
-Operator should be possible to be overriden, introducing an operator member on the override error symbols.
+Operators cannot be overriden.

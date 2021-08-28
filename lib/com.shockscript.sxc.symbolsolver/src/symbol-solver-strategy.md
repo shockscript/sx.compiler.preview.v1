@@ -4,12 +4,12 @@
 
 By default, a lexical reference resolves to a variable, virtual or method slot, except where type expressions are expected. If the lexical reference does not resolve to either of these, then it can still resolve to a module or type.
 
-As a convention, to desambiguate namespace and local, the programmer may use the `mod_` prefix to alias the module:
+As a convention, to desambiguate namespace, type and local, the programmer may use the `ns_` or `t_` prefix to alias the module or type:
 
 ```
-Imports mod_App = App
-App = New mod_App.App
-mod_App.F App
+Imports t_App = App.App
+App = New t_App
+t_App.SomeFn App
 ```
 
 ## Conversions
